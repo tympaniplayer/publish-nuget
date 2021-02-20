@@ -200,7 +200,8 @@ class Action {
 
         console.log(`Version: ${this.version}`)
 
-        this._checkForUpdate()
+        this._pushPackage(this.version, this.packageName)
+       // this._checkForUpdate()
     }
 }
 
